@@ -1,4 +1,3 @@
-
   *{
       margin: 0;
       height: 100%;
@@ -7,14 +6,14 @@
       width: 100%;
   }
   .one{
-    width: 100%;
-    padding: 10px 0px ;
-
+    background-color: black;
+    background-image: linear-gradient( #ffffff, #585553,#1598af,#575f0f);
   }
   .img-container{
       background-image: url("post.jpg");
+      left:20px ;
       height: 100%;
-      top: 50px;
+      bottom: 630px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -34,7 +33,7 @@
      font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .btn{ 
-border-radius: 20%;
+    border-radius: 20%;
      display: inline-block;
      width: 200px;    
       font-weight: bold;  
@@ -66,3 +65,35 @@ border-radius: 20%;
 
 
 }
+#mySidenav a {
+    position: absolute;
+    left: -115px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #4CAF50;
+    height: 10px;
+  }
+  #Precaution {
+    top: 80px;
+    height: 10px;
+    background-color: #2196F3;
+  }
+
+  #contact {
+    top: 140px;
+    height: 10px;
+    background-color: rgb(201, 18, 18)
+  }

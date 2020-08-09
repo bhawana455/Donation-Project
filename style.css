@@ -135,4 +135,28 @@
 
 
 }
+.three{
+  height: 100px;
+  width: 100%;
+  padding: 100px 0px ;
+ background-color: #37505f;
 
+}
+.three .instruct h1{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+ color: rgb(114, 109, 64);
+
+}
+.three .instruct h1:hover{
+  text-decoration: underline;
+}
+.three .instruct p{
+   padding-bottom: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+
+
+}

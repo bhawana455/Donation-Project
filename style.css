@@ -12,9 +12,9 @@
   }
   .img-container{
       background-image: url("post.jpg");
-      left:15px;
+      right:10px;
       height: 100%;
-      bottom: 670px;
+      bottom: 50px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -67,21 +67,6 @@
 
 
 }
-#mySidenav a {
-    position: absolute;
-    left: -102px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 100px;
-    text-decoration: none;
-    color: white;
-    border-radius: 0 5px 5px 0;
-    border: inset 2px rgb(203, 213, 216);
-  }
-  
-  #mySidenav a:hover {
-    left: 0;
-  }
   
   #about {
     top: 20px;
@@ -122,10 +107,8 @@
       text-align: center;
       text-transform: uppercase;
      color: rgb(11, 72, 126);
+     text-decoration: underline;
 
-  }
-  .two h1:hover{
-    text-decoration: underline;
   }
   .two .description p{
     
@@ -147,16 +130,22 @@
   text-align: center;
   text-transform: uppercase;
  color: rgb(114, 109, 64);
+ text-decoration: underline;
 
 }
-.three .instruct h1:hover{
-  text-decoration: underline;
-}
+
 .three .instruct p{
    padding-bottom: 30px;
   color: #ffffff;
   font-size: 18px;
   text-align: center;
 
+
+}
+.test{
+ height: 15%;
+  width: 100%;
+  padding: 100px 0px ;
+ background-color: #ad3e3e;
 
 }

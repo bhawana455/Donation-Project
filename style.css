@@ -67,7 +67,106 @@
     .inner-container{
         margin-top: 150px;
     }
+    a{
+      margin-top: 20px;
+      font-size:1.3rem ;
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     .btn{ 
+      display: inline-block;
+      width: 200px;     
+     padding: 10px;
+      color:rgb(3, 2, 17) ;
+      border: none;
+      text-align: center;
+      outline: none;
+      text-decoration: none;
+      transition: background-color 0.2s ease-out, color 0.2s ease-out;
+      opacity: 1;
+      background-color:crimson;
+      border-radius: 3px;
+      border: inset 2px rgb(0, 109, 143);
+ 
+   }
+   .btn:hover,.btn:active{
+       background-color: red;
+       color: #000;
+       transition:background-color 0.3s ease-in, color 0.3s ease-in;
+   }
+   @media only screen and (max-width:920px){
+       .inner-container{
+           margin-top: 100px;
+       }
+   }
+   @media only screen and (max-width:540px){
+     .inner-container{
+         margin-top: 150px;
+     }
+    
+  
+ }
    
+ 
+   .two{
+     height: 20%;
+     width: 100%;
+     padding: 50px 0px ;
+ 
+   }
+   .two .description h1{
+       font-size: 12px;
+   }
+   .two .description p{
+     
+     font-size: 10px;
+ 
+ 
+ }
+ .three{
+   height: 100px;
+   width: 100%;
+   padding: 100px 0px ;
+ 
+ }
+ .three .instruct h1{
+   font-size: 12px;
+ 
+ }
+ 
+ .three .instruct p{
+    padding-bottom: 40px;
+  
+   font-size: 10px;
+   text-align: center;
+ 
+ 
+ }
+ .test{
+  height: 15%;
+   width: 100%;
+ 
+ }
+ 
+ 
+ .leftside{
+
+ height: 15px;
+ width: 90px;
+ 
+ }
+ 
+ .leftside li .fa{
+   font-size: 10px;
+   padding-left: 20px;
+  
+ }
+ 
+ 
+ .leftside li:hover{
+   
+   margin-left: 5px;
+ }
  
 }
   

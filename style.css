@@ -175,7 +175,7 @@ position: relative;
 .leftside li:hover{
   padding: 20px 40px;
 }
-/*.leftside li:nth-child(1){
+.leftside li:nth-child(1){
  background: #3b5998;
 
 }
@@ -190,4 +190,4 @@ position: relative;
 .leftside li:nth-child(4){
  background: #ad3e3e;
 
-}*/
+}

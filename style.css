@@ -115,29 +115,28 @@
  
    }
    .two .description h1{
-       font-size: 12px;
+       font-size: 26px;
    }
    .two .description p{
      
-     font-size: 10px;
+     font-size: 20px;
  
  
  }
  .three{
-   height: 100px;
+   height: 60px;
    width: 100%;
    padding: 100px 0px ;
  
  }
  .three .instruct h1{
-   font-size: 12px;
+   font-size: 19px;
  
  }
  
  .three .instruct p{
-    padding-bottom: 40px;
-  
-   font-size: 10px;
+    padding-bottom: 30px;
+   font-size: 14px;
    text-align: center;
  
  
@@ -178,18 +177,18 @@
    background-color: #ad3e3e;
 
   }
-  .two .description h1{
-      font-size: 40px;
+ .description h1{
+      font-size: 50px;
       text-align: center;
       text-transform: uppercase;
      color: rgb(11, 72, 126);
      text-decoration: underline;
 
   }
-  .two .description p{
+  .description p{
     
     color: #c2c0c3;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 
 
@@ -201,7 +200,7 @@
  background-color: #37505f;
 
 }
-.three .instruct h1{
+ .instruct h1{
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
@@ -210,10 +209,10 @@
 
 }
 
-.three .instruct p{
+ .instruct p{
    padding-bottom: 30px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 
 

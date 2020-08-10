@@ -109,9 +109,9 @@
    
  
    .two{
-     height: 20%;
+     height: 50px;
      width: 100%;
-     padding: 50px 0px ;
+     padding: 100px 0px ;
  
    }
    .two .description h1{
@@ -171,7 +171,7 @@
   
 
   .two{
-    height: 20%;
+    height: 50px;
     width: 100%;
     padding: 100px 0px ;
    background-color: #ad3e3e;
